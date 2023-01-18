@@ -17,8 +17,11 @@
 
                 <h5 class="mt-xl">{{ trans('settings.system_version') }}</h5>
                 <div class="py-xs">
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/BookStackApp/BookStack/releases">
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/DustinReynoldsPE/BookStack/releases">
                         BookStack @if(strpos($version, 'v') !== 0) version @endif {{ $version }}
+                    </a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/DustinReynoldsPE/docker-bookstack/">
+                        docker-bookstack
                     </a>
                 </div>
             </div>
