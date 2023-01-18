@@ -285,6 +285,7 @@ export function build(options) {
         file_picker_types: 'file image',
         color_map,
         file_picker_callback,
+        newline_behavior: 'invert',
         paste_preprocess(plugin, args) {
             const content = args.content;
             if (content.indexOf('<img src="file://') !== -1) {
