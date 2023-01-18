@@ -12,6 +12,7 @@ export class WysiwygEditor extends Component {
 
         this.tinyMceConfig = buildEditorConfig({
             language: this.$opts.language,
+            newline_behavior: 'invert',
             containerElement: this.elem,
             darkMode: this.isDarkMode,
             textDirection: this.textDirection,
